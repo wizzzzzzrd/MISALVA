@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+
+        <!-- LINK ESTILOS MENU CSS -->
+        <link rel="stylesheet" href="css/menu.css">
+        <!-- LINK ICONOS CSS -->
+        <link rel="stylesheet" href="css/icomoon/style.css">
+        <!-- CSS ESTILOS FOOTER -->
+        <link rel="stylesheet" href="css/footer.css">
+        <!-- CSS ESTILOS DE LA IMAGEN PRINCIPAL -->
+        <link rel="stylesheet" href="css/img-principal.css">
+        <!-- CSS ESTILOS IMAGEN Y TEXTO DE MISION -->
+        <link rel="stylesheet" href="css/image-mision.css">
+        <!-- CSS ESTILOS IMAGEN Y TEXTI VISION -->
+        <link rel="stylesheet" href="css/image-vision.css">
+        <!--  CSS ESTILOS DE LAS TARJETAS DE VALORES -->
+        <link rel="stylesheet" href="css/tarjetas-valores.css">
+        <!-- CSS ESTILOS DE NOSOTROS -->
+        <link rel="stylesheet" href="css/nosotros.css">
+        <!-- CSS ESTILOS DE CARDS CON HOVER SERVICE -->
+        <link rel="stylesheet" href="css/card-hover.css">
+        <!-- CSS ESTILOS DE CARRUSEL -->
+        <link rel="stylesheet" href="css/carrusel.css">
+        <!-- LINK API DE FUENTE GOOGLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+        <!--LINK CSS BOOTSTRAP 5.0 -->
+        <link rel="stylesheet" href="bootstrap-5.0/css/bootstrap.css">
+
+        <!-- SCRIPT FONT-AWESOME ICONS -->
+        <script src="https://kit.fontawesome.com/1fc2543a6c.js" crossorigin="anonymous"></script>
+        <!-- SCRIPT BOOTSTRAP 5.0 -->    
+        <script src="bootstrap-5.0/js/bootstrap.js"></script>
+    </head>
+    <header>
+       <!-- MENU -->
+       <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn" >
+            <i class="icon-menu"></i>
+        </label>     
+        <input type="checkbox" id="discheck">   
+        <label for="check" class="discheckbtn" >
+            <i class="icon-x"></i>
+        </label>  
+        <a href="index.html" class="enlace">
+            <img src="images/MISALVA-logo-little.jpg" alt="" class="logo">
+        </a>
+        <ul class="tab-menu">
+            <li><a href="index.html"><span class="fa-solid fa-house-chimney"></span>Inicio</a></li>
+            <li><a href="#nosotros" class="nosotros"><span class="fa-solid fa-users-gear"></span>Nosotros</a></li>
+            <li><a href="servicios.html"><span class="fa-solid fa-helmet-safety"></span>Servicios</a></li>
+            <li><a href="#pie"><span class="fa-solid fa-paper-plane"></span>Contacto</a></li>
+            <li><a href="tel:+525514997388"><span class="fa-solid fa-phone"></span>5514997388</a></li>
+        </ul>
+    </nav>    
+    </header>
+    <body>
+      <br><br><br>
+        <!-- IMAGEN PRINCIPAL -->
+        <div class="cont-img-principal">
+        <img class="portada" src="images/imagen.jpg" alt="">
+        
+            <h1 class="eslogan">
+                SEGURIDAD Y CONFIANZA PARA TI.
+            </h1> 
+        </div>  
+        <br>
+
+         <!-- NAVEGACION DE MISION, VISION Y POLITICA -->
+ 
+         <ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-left: 5%; margin-right: 5%;">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Misión</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Visión</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Valores</button>
+            </li>
+          </ul>
+          <di class="tab-content" id="myTabContent">
+            <!-- APARTADO DE MISION -->
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" >
+            <!-- IMAGEN Y TEXTO DE MISION -->
+            <div class="cont-mision" style="border-radius: 3.7%;">
+                <div class="text-mision">
+                 <!-- ANIMACION DE VISION TEXT -->
+                 <div class="main" style="margin-top:7%;">
+                <span class = "span" >M</span>
+                <span class = "span" >I</span>
+                <span class = "span" >S</span>
+                <span class = "span"  class="letter">I</span>
+                <span class = "span" >Ó</span>
+                <span class = "span" >N</span>
+            </div>
+              
+                <h2 style="margin-top: 9%;">Proporcionar un servicio de excelente de calidad en Evaluación, Asesoría y Gestoría,
+                   cuidando la seguridad de nuestros clientes y buscando superar las expectativas de nuestros 
+                   clientes, socios de negocio y colaboradores con actitud de servicio, aplicando los altos estándares
+                    de calidad y seguridad.</h2>
+              </div>
+              <div class="mision-image" style="margin-top:13%;">
+                <img class="img-mision" src="images/mision-image.jpg" alt="">
+              </div>   
+              </div>
+            </div>
+            <!-- APARTADO DE VISION -->
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <!-- IAMGEN Y TEXTO DE VISION -->
+              <div class="cont-vision" style="border-radius: 3.7%;">
+                <div class="text-vision">
+              <!-- ANIMACION DE VISION TEXT -->
+                <div class="main" style="margin-top:7%;">
+                <span class = "span" >V</span>
+                <span class = "span" >I</span>
+                <span class = "span" >S</span>
+                <span class = "span"  class="letter">I</span>
+                <span class = "span" >Ó</span>
+                <span class = "span" >N</span>
+            </div>
+              
+                  <h2 style="margin-top:9%;">Ser una compañía integral y vanguardista para posicionarnos como
+                     una empresa líder a nivel nacional en los mercados en lo que participamos,
+                      manteniendo un crecimiento rentable y sostenido por la calidad de nuestros 
+                      trabajos ofreciendo servicios personalizados de alto valor agregado que den 
+                      una respuesta inmediata a las necesidades de los clientes</h2>
+                </div>
+                <div class="vision-image" style="margin-top:14%;">
+                  <img class="img-vision" src="images/vision-image.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- APARTADO DE VALORES -->
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <!-- TARJETAS DE VALORES -->
+            <div class="cont-valores" style="border-radius: 2.7%;">
+                <!-- ANIMACION DE VALORES TEXT -->
+                <br><br>
+                <div class="main">
+                <span class = "span" >V</span>
+                <span class = "span" >A</span>
+                <span class = "span" >L</span>
+                <span class = "span"  class="letter">O</span>
+                <span class = "span" >R</span>
+                <span class = "span" >E</span>
+                <span class = "span" >S</span>
+            </div>                   
+                  <div class="row1-container" style="margin-top:5%;">
+                    <div class="box box-down cyan">
+                      <h2 style="font-size:1.7em;">Trabajo en equipo</h2>
+                      <p>Promover un entorno de creatividad del personal para tener la capacidad de aportar 
+                        y adoptar recomendaciones que alienten la innovación.</p>
+                      <img class="img" src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+                    </div>
+                
+                    <div class="box red">
+                      <h2 style="font-size:1.7em;">Liderazgo</h2>
+                      <p>Enseñar, inspirar y promover la participación activa de la empresa, junto con el
+                         desarrollo profesional de los que ella la integran.</p>
+                      <img class="img" src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+                    </div>
+                
+                    <div class="box box-down blue">
+                      <h2 style="font-size:1.7em;">Compromiso</h2>
+                      <p>brindar un servicio de excelente calidad, buscando la satisfacción de nuestros clientes 
+                        superando sus expectativas.</p>
+                      <img class="img" src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="row2-container">
+                    <div class="box orange">
+                      <h2 style="font-size:1.7em;">Honestidad</h2>
+                      <p>Manejar a todos nuestros clientes, proveedores y personal con coherencia, 
+                        sinceridad y respeto a la justicia.</p>
+                      <img class="img" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="row1-container">
+                    <div class="box box-down cyan">
+                      <h2 style="font-size:1.7em;">Actitud de servicio</h2>
+                      <p>Comprender las necesidades de nuestros clientes ayudándolos a lograr sus metas
+                         con una respuesta inmediata a sus necesidades con una excelente atención.</p>
+                      <img class="img" src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+                    </div>
+                    <div class="box red">
+                      <h2 style="font-size:1.7em;">Responsabilidad</h2>
+                      <p>Cumplir en tiempo y forma con los compromisos con sus clientes, proveedores y el
+                         medio ambiente.</p>
+                      <img class="img" src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+                    </div>
+                
+                    <div class="box box-down blue">
+                      <h2 style="font-size:1.7em;">Productividad</h2>
+                      <p>Hacer más cada día y crecer para ser una empresa sólida y en constante evolución.</p>
+                      <img class="img" src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+                    </div>
+                  </div>
+              </div> 
+            </div>
+          </di
+        
+<!-- QUIENES SOMOS/NOSOSTROS-->
+<div class="cont-nosotros" id="nosotros" style="background-color: #000000; margin-top:4%;">
+  <br><br>
+<div id="g" >
+  <div class="no">
+      <div id="texto1">
+          <p id="n" style="margin-top:10%;">NOSOTROS</p>
+      </div>
+      <div id="texto2">
+          <p id="w"> <strong>Somos una empresa especializada y profesional en MATERIA DE SEGURIDAD E
+              HIGIENE, PROTECCIÓN CIVIL Y MEDIO AMBIENTE</strong> </p>
+      </div>
+  </div>
+  <div id="ho" >
+
+      <div id="p1">
+          <p style="margin-top:3%;"> Nuestras fortalezas</p>
+      </div>
+      <div id="p2">
+          <p style="margin-top:3%;">Nuestros clientes</p>
+      </div>
+
+  </div>
+  <div id="detal">
+      <ul id="gg">
+          <li>Inovacion</li>
+          <li>Precios accesibles</li>
+          <li>Buena atencion al cliente</li>
+          <li>Soluciones rapidas</li>
+      </ul>
+      <ul id="jj">
+          <li id="li">Estaciones Ecológicas De Servicios,
+              S.A. De C.V.
+          </li>
+          <li id="li">Rainbow Shoes De Mexico, S.A. De
+              C.V.</li>
+          <li>Leche Al Dia</li>
+          <li> Comercial E Industria Cancal, S.A. De
+              C.V.
+          </li>
+          <li id="li">Plásticos Pola, S.A. De C.V.</li>
+          <li id="li">Dmol Jr, S.A. De C.V</li>
+          <li id="li">Integración De Limpieza Corporativa E
+              Industrial S.A De C.V</li>
+          <li id="li"> Grupo Comrap, S.A. de C.V.</li>
+      </ul>
+  </div>
+</div>
+<br><br>
+</div>
+
+  <!-- TARJETAS CON TEXTO HOVER A CERCA DE SERVICIOS -->
+  <div style="background-color:#FF0000"> <br><br><br> </div>
+
+  <div style="background-color:#FF0000; margin-top:-.5%;" >
+  <h1 class="tit-indus" style="color:white;">NUESTRA INDUSTRIA</h1>
+  <h2 class="sub-indus" style="color:white;">Contamos con especialidad en materias como:
+    <div class="color-mul"></div>
+  </h2>
+  
+           
+</div>  
+  <div class="cont-card">
+    <div class="div-mul"></div>
+    
+  <div class="cont-card-hover">
+  <div class="card-ser">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/eco-fed.jpg" style="margin-left: 25%;">
+                    <h3>ECOLOGÍA FEDERAL</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                  <br><br>
+                    <p><strong>▪ Residuos Peligrosos.</strong></p>
+                    <p>- Plan de manejo de residuos &nbsp;&nbsp;&nbsp;&nbsp;peligrosos.</p>
+                    <p>- Capacitación en materia de &nbsp;&nbsp;&nbsp;residuos peligrosos a &nbsp;&nbsp;&nbsp;responsables en
+                       el manejo, &nbsp;&nbsp;&nbsp;almacenamiento, identificación, y &nbsp;&nbsp;&nbsp;control.</p>
+                    
+                        <a href="servicios.html" style="border-radius: 6%;">¡Saber mas!</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-ser">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/eco-mun.jpg" style="margin-left: 27%;">
+                    <h3>ECOLOGÍA MUNICIPAL</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p><strong>▪ Emisiones a la atmosfera.</strong></p>
+                    <p>- Registro de emisiones a la  &nbsp;&nbsp;&nbsp;&nbsp;atmosfera.</p>
+                    <p>- Registro de descarga de aguas  &nbsp;&nbsp;&nbsp;&nbsp;residuales.</p>
+                      <a href="servicios.html" style="border-radius: 6%;">¡Saber mas!</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-ser">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/prot-civ.jpg" style="margin-left: 25%;">
+                    <h3>PROTECCIÓN CIVIL</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p><strong>▪ Programa Interno de Protección &nbsp;&nbsp;&nbsp;&nbsp;Civil</strong></p>
+                    <p>- Obtención de uso de suelo</p>
+                    <p>- Elaboración de programa de &nbsp;&nbsp;&nbsp;&nbsp;protección civil</p>
+                        <a href="servicios.html" style="border-radius: 6%;">¡Saber mas!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="color-mul"></div>
+
+  <!-- CARROUSEL DE SERVICIOS -->
+  <div class="cont-car" style="background-color: rgb(11, 15, 63);">
+  <br><br><br>
+  <div id="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <div id="slides">
+       <div id="overflow">
+          <div class="inner">
+            <a href="servicios.html">
+             <div class="slide slide_1">
+                <div class="slide-content">
+                   <img src="imagenes/imagen1.jpg" width="100%" alt="">
+                </div>
+             </div>
+            </a>
+            <a href="servicios.html">
+             <div class="slide slide_2">
+                <div class="slide-content">
+                   <img src="imagenes/imagen2.jpg" width="100%" alt="">
+                </div>
+             </div>
+            </a>
+            <a href="servicios.html">
+             <div class="slide slide_3">
+                <div class="slide-content">
+                   <img src="imagenes/imagen3.jpg" width="100%" alt="">
+                </div>
+             </div>
+             </a>
+             <a href="servicios.html">
+             <div class="slide slide_4">
+                <div class="slide-content">
+                   <img src="imagenes/imagen4.jpg"width="100%" alt="">
+                </div>
+             </div>
+            </a>
+          </div>
+       </div>
+    </div>
+    <div id="controls">
+       <label for="slide1"></label>
+       <label for="slide2"></label>
+       <label for="slide3"></label>
+       <label for="slide4"></label>
+    </div>
+    <div id="bullets">
+       <label for="slide1"></label>
+       <label for="slide2"></label>
+       <label for="slide3"></label>
+       <label for="slide4"></label>
+    </div>
+    <br><br>
+ </div>
+</div>
+
+  <!-- FOOTER -->
+  <footer class="pie-pagina" id="pie">
+        <div class="grupo-1">
+            <div class="box-footer">
+                <figure>
+                    <a href="#">
+                        <img src="images/MISALVA-logo-little.jpg" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box-footer">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos una empresa especializada y profesional en Materia de Seguridad e Higiene, Protección Civil Y Medio Ambiente.</p>
+                <br><br>
+                <a href="mailto:SDIITEC@outlook.com">
+                  <p>Desarrollada por :&nbsp;&nbsp;<b><i class="fa-solid fa-microchip"></i>&nbsp;SDIITEC</b></p>
+                </a>
+            </div>
+            <div class="box-footer">
+                <h2>CONTACTANOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa-brands fa-facebook-f"></a>
+                    <p>MISALVA</p>
+                </div>
+                <div class="red-social">
+                  <a href="mailto:Gerenciatecnica@misalva.com" class="fa-regular fa-envelope"></a>
+                  <p>gerenciatecnica@misalva.com</p>
+                </div>
+                <div class="red-social">
+                  <a href="mailto:servicioaclientes@misalva.com" class="fa-regular fa-envelope"></a>
+                  <p>servicioaclientes@misalva.com</p>
+                </div>
+                <div class="red-social">
+                  <a href="https://api.whatsapp.com/send?phone=52 5583228990&text=Hola, Me interesa un servicio!" class="fa-brands fa-whatsapp"></a>
+                  <p>+52 55 8322 8990</p>
+                </div>
+                <div class="red-social">
+                  <a href="https://api.whatsapp.com/send?phone=52 5513251067&text=Hola, Me interesa un servicio!" class="fa-brands fa-whatsapp"></a>
+                  <p>+52 55 1325 1067</p>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>MISALVA</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+    <!-- ESTILOS AGREGADOS -->
+    <style>
+        a{
+            text-decoration:none;            
+        }
+    </style>
+<div id="pie"></div>
+    </body>
+</html>
+
